@@ -66,9 +66,12 @@
 
         <br>
         <h1>What does javascript event loop do?</h1>
-        <p>Javascript Event loop made by queue,stack and heap.Javascript event loop is responsible for executing code
-            and collecting and processing event and sub-task.Event loops take the event from the queue and places onto
-            the stack.The call stack responsible for function opertion execution and this function calling other
+        <p>Javascript Event loop made by queue,stack and heap and it's a cyclic process.Javascript event loop is
+            responsible for executing code
+            and queued sub-task
+            and collecting and processing event.Event loop takes the event from the queue and places onto
+            the stack,this case is the callback function.The call stack responsible for function opertion execution and
+            this function calling other
             functions inside it, if any.If the operation is finished it's popped from the stack.The call back function
             wait in the event queue and the Web API is making the mentioned wait. When the function stack becomes empty,
             the call back function gets loaded onto the stack.</p>
