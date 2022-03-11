@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+.question-part{
+  margin: 10px 10px 10px 10px;
+}
+.differ{
+  
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  margin:auto;
+}
+h3{
+  text-align: center;
+}
+
 /* CSS Reset */
 *,
 *::after,
